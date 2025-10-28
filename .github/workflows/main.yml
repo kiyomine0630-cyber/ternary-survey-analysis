@@ -1,0 +1,14 @@
+            - name: Ternary Operator Action
+  # You may pin to the exact commit or the version.
+  # uses: somaz94/ternary-operator@2bbcd6d466933737416e2bc72d7ece2894c47f5f
+  uses: somaz94/ternary-operator@v1.1.0
+  with:
+    # Comma-separated conditions to evaluate (max 10 conditions)
+    conditions: 
+    # Comma-separated values if conditions are true (must match number of conditions)
+    true_values: 
+    # Comma-separated values if conditions are false (must match number of conditions)
+    false_values: 
+    # Enable detailed debug logging (true/false)
+    debug_mode: # optional, default is false
+          
